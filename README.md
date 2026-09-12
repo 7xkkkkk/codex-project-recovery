@@ -97,7 +97,7 @@ python recover.py --home "D:\MyCodexHome" audit --out .local/audit.json
 python -m unittest discover -s tests -v
 ```
 
-测试使用临时目录与模拟数据库，覆盖候选筛选、过期计划、备份和原子写入等逻辑。GitHub Actions 在 Windows / Linux、Python 3.10 / 3.13 上运行测试；实际恢复写入仅支持 Windows。
+测试使用临时目录与模拟数据库，覆盖候选筛选、过期计划、备份和原子写入等逻辑。GitHub Actions 在 Windows 上使用 Python 3.10 和 3.13 运行测试。Linux 和 macOS 不在当前支持范围内。
 
 ## License
 
