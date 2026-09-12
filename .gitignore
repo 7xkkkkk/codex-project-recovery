@@ -1,0 +1,13 @@
+.local/
+backups/
+backup-*/
+audit*.json
+plan*.json
+restore-*.json
+*.sqlite*
+*.db*
+*.jsonl
+*.log
+__pycache__/
+*.pyc
+.venv/
